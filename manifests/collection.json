@@ -1,0 +1,13 @@
+{
+  "id" : "https://msteinfels.github.io/Its-A-Blue-World/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in msteinfels/Its-A-Blue-World project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://msteinfels.github.io/Its-A-Blue-World/manifests/Blueworldtest.json",
+    "label" : "N/A"
+  } ]
+}
