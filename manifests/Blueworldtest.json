@@ -136,14 +136,14 @@
       "height" : 5982,
       "width" : 5037,
       "thumbnail" : {
-        "@id" : "https://hood.resourcespace.com/iiif/image/78373/full/thm/0/default.jpg",
+        "@id" : "https://hood.resourcespace.com/iiif/image/78372/full/thm/0/default.jpg",
         "@type" : "dctypes:Image",
         "height" : 175,
         "width" : 147,
         "format" : "image/jpeg",
         "service" : {
           "@context" : "http://iiif.io/api/image/2/context.json",
-          "@id" : "https://hood.resourcespace.com/iiif/image/78373",
+          "@id" : "https://hood.resourcespace.com/iiif/image/78372",
           "profile" : "http://iiif.io/api/image/2/level1.json"
         }
       },
@@ -153,14 +153,14 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "https://hood.resourcespace.com/iiif/image/78373/full/max/0/default.jpg",
+          "@id" : "https://hood.resourcespace.com/iiif/image/78372/full/max/0/default.jpg",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 5982,
           "width" : 5037,
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://hood.resourcespace.com/iiif/image/78373",
+            "@id" : "https://hood.resourcespace.com/iiif/image/78372",
             "profile" : "http://iiif.io/api/image/2/level1.json"
           }
         },
