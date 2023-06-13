@@ -2,7 +2,7 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://msteinfels.github.io/Its-A-Blue-World/manifests/Bhasha.json",
   "@type" : "sc:Manifest",
-  "label" : "[Click to edit label]",
+  "label" : "Bhasha Chakrabarti and Mary Ann Pettway",
   "metadata" : [ ],
   "description" : [ {
     "@value" : "[Click to edit description]",
