@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 25,
+    "height" : 17
+  }, {
+    "width" : 49,
+    "height" : 33
+  }, {
+    "width" : 97,
+    "height" : 65
+  }, {
+    "width" : 193,
+    "height" : 129
+  }, {
+    "width" : 385,
+    "height" : 257
+  }, {
+    "width" : 770,
+    "height" : 513
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 770,
+  "@id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Farmer",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 513
+}
