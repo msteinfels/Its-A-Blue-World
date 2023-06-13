@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://msteinfels.github.io/Its-A-Blue-World/manifests/Farmer.json",
+  "@type" : "sc:Manifest",
+  "label" : "Farmer working with indigo plants",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://4d66946d-482c-425c-a393-77f27496b6ab",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://bda163d4-8f08-4d5d-b4aa-6b177d17a617",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 513,
+      "width" : 770,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://366904dc-ea89-4388-a041-cc4d06c28140",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Farmer/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Farmer",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 513,
+          "width" : 770
+        },
+        "on" : "http://bda163d4-8f08-4d5d-b4aa-6b177d17a617"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
