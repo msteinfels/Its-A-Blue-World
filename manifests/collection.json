@@ -21,5 +21,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://msteinfels.github.io/Its-A-Blue-World/manifests/Farmer.json",
     "label" : "Farmer working with indigo plants"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://msteinfels.github.io/Its-A-Blue-World/manifests/Indigo.json",
+    "label" : "Indigo brick"
   } ]
 }
