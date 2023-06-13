@@ -1,0 +1,66 @@
+{
+  "id" : "https://msteinfels.github.io/Its-A-Blue-World/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in msteinfels/Its-A-Blue-World project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 800,
+    "id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Dye/canvas/",
+    "label" : {
+      "none" : [ "Dye" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Dye/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Dye/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 25,
+              "height" : 19
+            }, {
+              "width" : 50,
+              "height" : 38
+            }, {
+              "width" : 100,
+              "height" : 75
+            }, {
+              "width" : 200,
+              "height" : 150
+            }, {
+              "width" : 400,
+              "height" : 300
+            }, {
+              "width" : 800,
+              "height" : 600
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 800,
+            "@id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Dye",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 600
+          } ],
+          "format" : "image/jpeg",
+          "width" : 800,
+          "id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Dye/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 600
+        },
+        "target" : "https://msteinfels.github.io/Its-A-Blue-World/images/Dye/canvas/"
+      } ]
+    } ],
+    "height" : 600
+  } ]
+}
