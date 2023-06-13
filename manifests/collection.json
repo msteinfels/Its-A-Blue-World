@@ -13,5 +13,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://msteinfels.github.io/Its-A-Blue-World/manifests/Quilt-Back.json",
     "label" : "It's a Blue World by Bhasha Chakrabarti"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://msteinfels.github.io/Its-A-Blue-World/manifests/Bhasha.json",
+    "label" : "[Click to edit label]"
   } ]
 }
