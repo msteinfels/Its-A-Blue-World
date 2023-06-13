@@ -2,23 +2,14 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://msteinfels.github.io/Its-A-Blue-World/manifests/Blueworldtest2.json",
   "@type" : "sc:Manifest",
-  "label" : "It's a Blue World",
-  "description" : "It's a Blue World, by Bhasha Chakrabarti",
+  "label" : "Blue World by Bhasha Chakrabarti",
+  "description" : "",
   "metadata" : [ {
     "label" : "Image Date",
-    "value" : "2023-03-17"
+    "value" : "2023-03-17 13:59:51"
   }, {
     "label" : "Original filename",
-    "value" : "2022-61_001-23_cr.tif"
-  }, {
-    "label" : "Source",
-    "value" : [ {
-      "@value" : "Digital Camera",
-      "@language" : "en"
-    } ]
-  }, {
-    "label" : "Photographer",
-    "value" : "Sara Jamback"
+    "value" : "2022-61_cc copy 2.tif"
   }, {
     "label" : "Pixel height",
     "value" : "5982"
@@ -27,22 +18,19 @@
     "value" : "5037"
   }, {
     "label" : "Color Space",
-    "value" : "Uncalibrated"
+    "value" : "sRGB"
   }, {
     "label" : "MimeType",
     "value" : "image/tiff"
   }, {
     "label" : "Photo Create Date",
-    "value" : "2023-03-17 13:59"
+    "value" : "2023-03-17 13:59:51"
   }, {
     "label" : "md5checksum",
-    "value" : "18add740089d13cd1f8176c5194674e6"
+    "value" : "5791f1cd98f289070f6d8ee4a0b6e865"
   }, {
     "label" : "Rowchecksum",
-    "value" : "-1775559738"
-  }, {
-    "label" : "File Extension",
-    "value" : "tif"
+    "value" : "2022481198"
   }, {
     "label" : "Object ID",
     "value" : "78259"
@@ -89,6 +77,9 @@
     "label" : "Dimensions",
     "value" : "Overall: 83 × 74 in. (210.8 × 188 cm)"
   }, {
+    "label" : "Subjects",
+    "value" : "Woman Artist | Textile | Recycling | Quilt | Indigo"
+  }, {
     "label" : "Credit Line",
     "value" : "Purchased through the William S. Rubin Fund and the Stephen and Constance Spahn '63 Acquisition Fund"
   }, {
@@ -107,6 +98,12 @@
       "@language" : "en"
     } ]
   }, {
+    "label" : "Has Object Target",
+    "value" : [ {
+      "@value" : "No",
+      "@language" : "en"
+    } ]
+  }, {
     "label" : "Image View",
     "value" : [ {
       "@value" : "Primary",
@@ -114,14 +111,14 @@
     } ]
   } ],
   "thumbnail" : {
-    "@id" : "https://hood.resourcespace.com/iiif/image/78372/full/thm/0/default.jpg",
+    "@id" : "https://hood.resourcespace.com/iiif/image/84068/full/thm/0/default.jpg",
     "@type" : "dctypes:Image",
     "height" : 175,
     "width" : 147,
     "format" : "image/jpeg",
     "service" : {
       "@context" : "http://iiif.io/api/image/2/context.json",
-      "@id" : "https://hood.resourcespace.com/iiif/image/78372",
+      "@id" : "https://hood.resourcespace.com/iiif/image/84068",
       "profile" : "http://iiif.io/api/image/2/level1.json"
     }
   },
@@ -130,41 +127,78 @@
     "@type" : "sc:Sequence",
     "label" : "Default order",
     "canvases" : [ {
-      "@id" : "https://hood.resourcespace.com/iiif/78259/canvas/0",
+      "@id" : "https://hood.resourcespace.com/iiif/78259/canvas/1",
       "@type" : "sc:Canvas",
-      "label" : "0",
+      "label" : "1",
       "height" : 5982,
       "width" : 5037,
       "thumbnail" : {
-        "@id" : "https://hood.resourcespace.com/iiif/image/78372/full/thm/0/default.jpg",
+        "@id" : "https://hood.resourcespace.com/iiif/image/84068/full/thm/0/default.jpg",
         "@type" : "dctypes:Image",
         "height" : 175,
         "width" : 147,
         "format" : "image/jpeg",
         "service" : {
           "@context" : "http://iiif.io/api/image/2/context.json",
-          "@id" : "https://hood.resourcespace.com/iiif/image/78372",
+          "@id" : "https://hood.resourcespace.com/iiif/image/84068",
           "profile" : "http://iiif.io/api/image/2/level1.json"
         }
       },
       "images" : [ {
         "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "https://hood.resourcespace.com/iiif/78259/annotation/0",
+        "@id" : "https://hood.resourcespace.com/iiif/78259/annotation/1",
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "https://hood.resourcespace.com/iiif/image/78372/full/max/0/default.jpg",
+          "@id" : "https://hood.resourcespace.com/iiif/image/84068/full/max/0/default.jpg",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 5982,
           "width" : 5037,
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://hood.resourcespace.com/iiif/image/78372",
+            "@id" : "https://hood.resourcespace.com/iiif/image/84068",
             "profile" : "http://iiif.io/api/image/2/level1.json"
           }
         },
-        "on" : "https://hood.resourcespace.com/iiif/78259/canvas/0"
+        "on" : "https://hood.resourcespace.com/iiif/78259/canvas/1"
+      } ]
+    }, {
+      "@id" : "https://hood.resourcespace.com/iiif/78259/canvas/2",
+      "@type" : "sc:Canvas",
+      "label" : "2",
+      "height" : 5982,
+      "width" : 5037,
+      "thumbnail" : {
+        "@id" : "https://hood.resourcespace.com/iiif/image/84068/full/thm/0/default.jpg",
+        "@type" : "dctypes:Image",
+        "height" : 175,
+        "width" : 147,
+        "format" : "image/jpeg",
+        "service" : {
+          "@context" : "http://iiif.io/api/image/2/context.json",
+          "@id" : "https://hood.resourcespace.com/iiif/image/84068",
+          "profile" : "http://iiif.io/api/image/2/level1.json"
+        }
+      },
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "https://hood.resourcespace.com/iiif/78259/annotation/2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://hood.resourcespace.com/iiif/image/84068/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 5982,
+          "width" : 5037,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://hood.resourcespace.com/iiif/image/84068",
+            "profile" : "http://iiif.io/api/image/2/level1.json"
+          }
+        },
+        "on" : "https://hood.resourcespace.com/iiif/78259/canvas/2"
       } ]
     } ]
   } ]
