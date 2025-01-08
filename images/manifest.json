@@ -1,180 +1,255 @@
 {
-  "id" : "https://msteinfels.github.io/Its-A-Blue-World/images/manifest.json",
-  "label" : {
-    "en" : [ "All images loaded in msteinfels/Its-A-Blue-World project" ]
-  },
-  "type" : "Manifest",
-  "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "items" : [ {
-    "width" : 1920,
-    "id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Bhasha/canvas/",
-    "label" : {
-      "none" : [ "Bhasha" ]
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://msteinfels.github.io/Its-A-Blue-World/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in msteinfels/Its-A-Blue-World project"
+        ]
     },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Bhasha/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Bhasha/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 60,
-              "height" : 34
-            }, {
-              "width" : 120,
-              "height" : 68
-            }, {
-              "width" : 240,
-              "height" : 135
-            }, {
-              "width" : 480,
-              "height" : 270
-            }, {
-              "width" : 960,
-              "height" : 540
-            }, {
-              "width" : 1920,
-              "height" : 1080
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 1920,
-            "@id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Bhasha",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 1080
-          } ],
-          "format" : "image/jpeg",
-          "width" : 1920,
-          "id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Bhasha/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 1080
+    "items": [
+        {
+            "id": "https://msteinfels.github.io/Its-A-Blue-World/images/Bhasha/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Bhasha"
+                ]
+            },
+            "height": 1080,
+            "width": 1920,
+            "items": [
+                {
+                    "id": "https://msteinfels.github.io/Its-A-Blue-World/images/Bhasha/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://msteinfels.github.io/Its-A-Blue-World/images/Bhasha/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://msteinfels.github.io/Its-A-Blue-World/images/Bhasha/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 60,
+                                                "height": 34
+                                            },
+                                            {
+                                                "width": 120,
+                                                "height": 68
+                                            },
+                                            {
+                                                "width": 240,
+                                                "height": 135
+                                            },
+                                            {
+                                                "width": 480,
+                                                "height": 270
+                                            },
+                                            {
+                                                "width": 960,
+                                                "height": 540
+                                            },
+                                            {
+                                                "width": 1920,
+                                                "height": 1080
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 1920,
+                                        "@id": "https://msteinfels.github.io/Its-A-Blue-World/images/Bhasha",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 1080,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://msteinfels.github.io/Its-A-Blue-World/images/Bhasha/canvas/"
+                        }
+                    ]
+                }
+            ]
         },
-        "target" : "https://msteinfels.github.io/Its-A-Blue-World/images/Bhasha/canvas/"
-      } ]
-    } ],
-    "height" : 1080
-  }, {
-    "width" : 770,
-    "id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Farmer/canvas/",
-    "label" : {
-      "none" : [ "Farmer" ]
-    },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Farmer/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Farmer/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 25,
-              "height" : 17
-            }, {
-              "width" : 49,
-              "height" : 33
-            }, {
-              "width" : 97,
-              "height" : 65
-            }, {
-              "width" : 193,
-              "height" : 129
-            }, {
-              "width" : 385,
-              "height" : 257
-            }, {
-              "width" : 770,
-              "height" : 513
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 770,
-            "@id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Farmer",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 513
-          } ],
-          "format" : "image/jpeg",
-          "width" : 770,
-          "id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Farmer/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 513
+        {
+            "id": "https://msteinfels.github.io/Its-A-Blue-World/images/Farmer/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Farmer"
+                ]
+            },
+            "height": 513,
+            "width": 770,
+            "items": [
+                {
+                    "id": "https://msteinfels.github.io/Its-A-Blue-World/images/Farmer/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://msteinfels.github.io/Its-A-Blue-World/images/Farmer/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://msteinfels.github.io/Its-A-Blue-World/images/Farmer/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 25,
+                                                "height": 17
+                                            },
+                                            {
+                                                "width": 49,
+                                                "height": 33
+                                            },
+                                            {
+                                                "width": 97,
+                                                "height": 65
+                                            },
+                                            {
+                                                "width": 193,
+                                                "height": 129
+                                            },
+                                            {
+                                                "width": 385,
+                                                "height": 257
+                                            },
+                                            {
+                                                "width": 770,
+                                                "height": 513
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 770,
+                                        "@id": "https://msteinfels.github.io/Its-A-Blue-World/images/Farmer",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 513,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://msteinfels.github.io/Its-A-Blue-World/images/Farmer/canvas/"
+                        }
+                    ]
+                }
+            ]
         },
-        "target" : "https://msteinfels.github.io/Its-A-Blue-World/images/Farmer/canvas/"
-      } ]
-    } ],
-    "height" : 513
-  }, {
-    "width" : 800,
-    "id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Dye/canvas/",
-    "label" : {
-      "none" : [ "Dye" ]
-    },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Dye/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Dye/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 25,
-              "height" : 19
-            }, {
-              "width" : 50,
-              "height" : 38
-            }, {
-              "width" : 100,
-              "height" : 75
-            }, {
-              "width" : 200,
-              "height" : 150
-            }, {
-              "width" : 400,
-              "height" : 300
-            }, {
-              "width" : 800,
-              "height" : 600
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 800,
-            "@id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Dye",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 600
-          } ],
-          "format" : "image/jpeg",
-          "width" : 800,
-          "id" : "https://msteinfels.github.io/Its-A-Blue-World/images/Dye/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 600
-        },
-        "target" : "https://msteinfels.github.io/Its-A-Blue-World/images/Dye/canvas/"
-      } ]
-    } ],
-    "height" : 600
-  } ]
+        {
+            "id": "https://msteinfels.github.io/Its-A-Blue-World/images/Dye/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Dye"
+                ]
+            },
+            "height": 600,
+            "width": 800,
+            "items": [
+                {
+                    "id": "https://msteinfels.github.io/Its-A-Blue-World/images/Dye/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://msteinfels.github.io/Its-A-Blue-World/images/Dye/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://msteinfels.github.io/Its-A-Blue-World/images/Dye/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 25,
+                                                "height": 19
+                                            },
+                                            {
+                                                "width": 50,
+                                                "height": 38
+                                            },
+                                            {
+                                                "width": 100,
+                                                "height": 75
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 150
+                                            },
+                                            {
+                                                "width": 400,
+                                                "height": 300
+                                            },
+                                            {
+                                                "width": 800,
+                                                "height": 600
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 800,
+                                        "@id": "https://msteinfels.github.io/Its-A-Blue-World/images/Dye",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 600,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://msteinfels.github.io/Its-A-Blue-World/images/Dye/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
